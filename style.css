@@ -338,6 +338,45 @@ spam {
   justify-content: space-around;
 }
 
+.sect-5 > .img {
+  display: flex;
+  width: 100%;
+  margin: auto;
+  padding-top: 70px;
+  gap:10px;
+  }
+  
+  .sect-5 > .img img:first-child {
+  flex: 1 1 50%; 
+  }
+ 
+
+  .sect-5 > .img-container {
+  flex: 1 1 50%; 
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); 
+  grid-gap: 20px; 
+  }
+  
+  
+  .sect-5 > .img-container img {
+  width: 33%; 
+  
+  gap:10px;
+  }
+  .sect-5 > .img-container-1 img {
+      width:25%;
+      gap:10px;
+  }
+  
+  .sect-5 > h1 {
+  width: 35%;
+  text-align: center;
+  margin: auto;
+  padding-bottom: 5px;
+  border-bottom: 10px solid rgba(182, 40, 40, 1);
+  }
+
 /* resposive */
 @media only screen and (max-width: 900px) {
   * {
